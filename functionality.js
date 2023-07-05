@@ -37,7 +37,7 @@ function padZero(value) {
   return value.toString().padStart(2, '0');
 }
 
-//stylingwith DOM
+//More stylingwith DOM
 const heading =document.querySelector('h1');
 heading.style.textTransform='uppercase';
 heading.style.color='maroon';
